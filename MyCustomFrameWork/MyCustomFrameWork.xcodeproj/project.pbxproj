@@ -22,7 +22,7 @@
 
 /* Begin PBXBuildFile section */
 		4608DE851D9BF0BF00E43187 /* MyCustomFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 4608DE831D9BF0BF00E43187 /* MyCustomFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4608DE8D1D9BF0EE00E43187 /* MyMainClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 4608DE8B1D9BF0EE00E43187 /* MyMainClass.h */; };
+		4608DE8D1D9BF0EE00E43187 /* MyMainClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 4608DE8B1D9BF0EE00E43187 /* MyMainClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4608DE8E1D9BF0EE00E43187 /* MyMainClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4608DE8C1D9BF0EE00E43187 /* MyMainClass.m */; };
 /* End PBXBuildFile section */
 
@@ -343,6 +343,7 @@
 				4608DE8A1D9BF0BF00E43187 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4608DE901D9BF11600E43187 /* Build configuration list for PBXAggregateTarget "Universal" */ = {
 			isa = XCConfigurationList;
@@ -351,6 +352,7 @@
 				4608DE921D9BF11600E43187 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

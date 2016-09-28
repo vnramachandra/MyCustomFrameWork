@@ -23,10 +23,10 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.ios.deployment_target = "8.0"
   s.requires_arc = true
-  s.source       = { :git => "https://github.com/vnramachandra/MyCustomFrameWork.git", :tag => "v1.0.0" }
+  s.source       = { :git => "https://github.com/vnramachandra/MyCustomFrameWork-Library.git", :tag => "v1.0.0" }
 
   # The product of the vendor
-  s.ios.vendored_frameworks = 'MyFramework.framework'
+  s.ios.vendored_frameworks = 'MyCustomFrameWork.framework'
 
   s.frameworks = 'CoreTelephony','SystemConfiguration'
 
